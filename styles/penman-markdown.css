@@ -29,10 +29,10 @@
 }
 .mde-preview strong {
   font-weight: bold;
-  color: #A63055;
+  color: #8F2C40;
 }
 .mde-preview em {
-  color: #A63055;
+  color: #8F2C40;
 }
 .mde-preview h1 {
   font-size: 2em;
@@ -84,7 +84,7 @@
   font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 .mde-preview a {
-  color: #126495;
+  color: #0E5077;
   text-decoration: none;
 }
 .mde-preview a:hover,
@@ -157,7 +157,7 @@
   list-style-type: lower-alpha;
 }
 .mde-preview li::marker {
-  color: #126495;
+  color: #0E5077;
 }
 .mde-preview dd {
   margin-left: 0;
@@ -165,7 +165,7 @@
 .mde-preview code {
   font-size: 12px;
   box-sizing: border-box;
-  border: 1px solid #E2E3E7;
+  border: 1px solid #E2E3EC;
   padding: 0px 2px 0px 2px;
 }
 .mde-preview pre {
@@ -344,15 +344,12 @@
   padding: 6px 13px;
   border: 1px solid #C6C8CF;
 }
-.mde-preview table thead {
-  background-color: rgba(226, 227, 231, 0.4) !important;
-}
 .mde-preview table tr {
   background-color: #F9FBFF;
   border-top: 1px solid #C6C8CF;
 }
 .mde-preview table tr:nth-child(2n) {
-  background-color: rgba(226, 227, 231, 0.4);
+  background-color: rgba(226, 227, 236, 0.4);
 }
 .mde-preview img {
   max-width: 100%;
@@ -387,7 +384,7 @@
   word-wrap: normal;
   font-size: 85%;
   line-height: 1.45;
-  background-color: rgba(226, 227, 231, 0.4);
+  background-color: rgba(226, 227, 236, 0.4);
   border-radius: 3px;
 }
 .mde-preview pre code {
@@ -445,21 +442,21 @@
   text-decoration: line-through;
 }
 .mde-preview .cm-keyword {
-  color: #A63055;
+  color: #8F2C40;
   font-weight: normal;
 }
 .mde-preview .cm-atom {
-  color: #9D5025;
+  color: #7A3C19;
 }
 .mde-preview .cm-number,
 .mde-preview .cm-attribute {
   color: #CA9439;
 }
 .mde-preview .cm-def {
-  color: #9D5025;
+  color: #7A3C19;
 }
 .mde-preview .cm-property {
-  color: #9D5025;
+  color: #7A3C19;
 }
 .mde-preview .cm-operator,
 .mde-preview .cm-meta,
@@ -471,14 +468,14 @@
   color: #056AB5;
 }
 .mde-preview .cm-variable-2 {
-  color: #A63055;
+  color: #8F2C40;
 }
 .mde-preview .cm-variable-3,
 .mde-preview .cm-s-default .cm-type {
-  color: #9D5025;
+  color: #7A3C19;
 }
 .mde-preview .cm-comment {
-  color: #AAADB7;
+  color: #AAADBD;
   font-style: italic;
 }
 .mde-preview .cm-string,
@@ -488,13 +485,13 @@
 .mde-preview .cm-qualifier,
 .mde-preview .cm-builtin,
 .mde-preview .cm-tag {
-  color: #263480;
+  color: #1E2966;
 }
 .mde-preview .cm-hr {
   color: #CA9439;
 }
 .mde-preview .cm-link {
-  color: #126495;
+  color: #0E5077;
 }
 .mde-preview .cm-error {
   color: #CD3F5C;
